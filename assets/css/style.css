@@ -1,0 +1,29 @@
+body {
+    /* background-color: #13331a; */
+    background-image: url('../imgs/V+A-Session-Atlanta-Downtown-57.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  .blurred{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 5px;
+  }
+  
+  /* .blurring{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  } */
+  
+  .mob {
+    font-size: 2.9rem !important;
+  }
